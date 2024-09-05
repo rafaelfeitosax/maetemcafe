@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(233, 236, 59);
+    margin: 0;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.cafe_container {
+    display: flex;
+    justify-content: center; /* Alinha a imagem à direita */
+    align-items: flex-start; /* Alinha a imagem ao topo */
+    width: 100%; /* Ocupa toda a largura disponível */
+    height: auto;
+}
+
+.cafe_container img {
+    width: 350px;  /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+
+}

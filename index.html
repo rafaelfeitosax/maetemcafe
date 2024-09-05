@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mãe, tem café?</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3 class="header_text">Mãe, tem café?</h3>
+        </div>
+        <div class="cafe_container">
+            <img src="img/1sem.png" alt="inicial">
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Teeem</button>
+            <button class="btn" id="noButton" onclick="nextPage2()">Tem não</button>
+        </div>
+
+    </div>
+
+    <!-- Audio-->
+     <audio src="audio/temcafe.mp3" autoplay></audio>
+
+    <script>
+        
+
+        function nextPage() {
+            window.location.href = "yes.html";
+        }
+
+        function nextPage2(){
+            window.location.href = "no.html";
+
+        }
+
+        
+    </script>
+
+</body>
+
+</html>
